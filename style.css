@@ -1,0 +1,362 @@
+body {
+  background-color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  @media sereen and (max-width: 600px) {
+    background: blue;
+  }
+}
+.max-width {
+  width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+nav {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.navbar {
+  width: 100%;
+  padding: 30px 0;
+  font-family: "Ubuntu", sans-serif;
+}
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a {
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+  font-weight: 600;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+}
+@media only screen and (max-width: 600px) {
+  .menu {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+
+    top: 35px;
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: -30px;
+  }
+}
+
+/* start  */
+.start {
+  position: absolute;
+  width: 582px;
+  height: 270px;
+  left: 220px;
+  top: 285px;
+}
+@media only screen and (max-width: 600px) {
+  .start {
+    position: absolute;
+    width: 404px;
+    height: 222px;
+    left: 15px;
+    top: 352px;
+  }
+}
+
+.start-h1 {
+  font-family: Poppins;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+h4 {
+  position: absolute;
+  left: 8.33%;
+  right: 56.6%;
+  top: 13.13%;
+  bottom: 85.03%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+
+  color: #3a3a3a;
+}
+.link-button {
+  text-decoration: none;
+  background-color: #e02c6d;
+  width: 200px;
+  height: 170px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.main-cemera {
+  position: absolute;
+  width: 440px;
+  height: 414px;
+  left: 1135px;
+  top: 211px;
+}
+@media only screen and (max-width: 600px) {
+  .main-cemera {
+    position: absolute;
+    width: 257px;
+    height: 257px;
+    left: 51px;
+    top: 91px;
+  }
+}
+.cercle {
+  position: absolute;
+
+  left: 1133px;
+  top: 181px;
+
+  opacity: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .cercle {
+    position: absolute;
+    width: 257px;
+    height: 257px;
+    left: 51px;
+    top: 91px;
+  }
+}
+/* section three style  */
+.pc {
+  padding-left: 70px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.containar {
+  height: 1662px;
+  width: 1047px;
+  padding-left: 356px;
+  padding-top: 957px;
+  border-radius: [object Object]px;
+}
+.containar-2 {
+  position: absolute;
+  width: 986.47px;
+  height: 39.61px;
+  left: 420px;
+  top: 850px;
+}
+@media only screen and (max-width: 600px) {
+  .containar-2 {
+    display: block;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: column;
+    width: 275.21px;
+    height: 61.46px;
+    padding-left: 0px;
+    border: none;
+    padding-top: 624.5px;
+  }
+}
+.c-logo {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  border-top: 1px solid rgb(230, 223, 223);
+  border-bottom: 1px solid rgb(230, 223, 223);
+
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+/* top populas style  */
+.populars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 15px;
+}
+@media only screen and (max-width: 600px) {
+  .populars {
+    position: absolute;
+    width: 329px;
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+    height: 4505px;
+    left: 15px;
+    padding-top: 736px;
+  }
+}
+.popular {
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.popular img {
+  width: 300px;
+  height: 256px;
+  padding-top: 8px;
+  padding-left: 10px;
+}
+.new {
+  padding-left: 8px;
+}
+
+.price {
+  font-size: 20px;
+}
+.fa-star {
+  font-size: 10px;
+  color: orange;
+}
+.blank {
+  color: grey;
+}
+.rating {
+  font-size: 12px;
+}
+.more {
+  padding-top: 150px;
+  padding-left: 500px;
+  text-decoration: none;
+}
+/* scetion four style  */
+.dis {
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+}
+.gear {
+  padding-left: 170px;
+  padding-top: 110px;
+}
+@media only screen and (max-width: 600px) {
+  .gear {
+    position: absolute;
+    width: 299px;
+    height: 188px;
+    margin-left: -140px;
+    top: 6628px;
+  }
+}
+.start-2 {
+  padding-left: 210px;
+  padding-top: 130px;
+}
+@media only screen and (max-width: 600px) {
+  .start-2 {
+    width: 1px;
+    height: 2px;
+    margin-left: -1120px;
+    top: 6390px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+
+    text-align: center;
+  }
+}
+
+/* background img  */
+.background-img {
+  background-image: linear-gradient(#0a0826, #0a0826);
+
+  position: absolute;
+  width: 1908px;
+  height: 239px;
+  left: 0px;
+
+  background: #0a0826;
+}
+@media only screen and (max-width: 600px) {
+  .background-img {
+    position: absolute;
+    width: 460px;
+    height: 211px;
+    left: 0px;
+    top: 6966px;
+
+    background: #0a0826;
+  }
+  .fa-instagram {
+    position: absolute;
+    width: 224px;
+    height: 111px;
+    margin-left: 88px;
+    text-align: center;
+    top: 6816px;
+  }
+}
+.in-pro {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+.in-para {
+  color: white;
+  text-align: center;
+  padding-top: -20px;
+}
+.fab {
+  color: white;
+  margin-left: 25px;
+}
+.fa-instagram {
+  padding-left: 850px;
+}
+.see-more {
+  text-decoration: none;
+  padding-top: 200px;
+  padding-left: 950px;
+  color: #e02c6d;
+}
+@media only screen and (max-width: 600px) {
+  .see-more {
+    position: absolute;
+    width: 75px;
+    height: 24px;
+    left: -650px;
+    top: 6216px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.start-2 {
+  position: absolute;
+  width: 582px;
+  height: 270px;
+  padding-left: 1120px;
+}
+
+.text {
+  text-align: justify;
+}
